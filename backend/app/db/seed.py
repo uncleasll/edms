@@ -197,6 +197,8 @@ def seed_database(db: Session) -> None:
             )
         )
 
+    db.flush()  # users va documents bazaga yoziladi (FK constraint bajariladi)
+
     db.add(Notification(user_id=1, message="DOC-005 muddat o'tdi!", type="overdue"))
     db.add(Notification(user_id=1, message="DOC-001 imzoni kutmoqda", type="pending"))
     db.commit()
