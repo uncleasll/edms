@@ -7,7 +7,7 @@ from app.models.entities import Document, DocumentTemplate, Notification, User
 
 
 USERS = [
-    (1, "direktor", "Abdullayev Jamshid", "director", "Rahbariyat", "Direktor", "DJ"),
+    (1, "direktor", "Xolisa Kamoliddinovna", "director", "Rahbariyat", "Direktor", "DJ"),
     (2, "ombor1", "Karimov Bekzod", "warehouse", "Ombor 1", "Ombor mudiri", "KB"),
     (3, "ombor2", "Toshmatov Sanjar", "warehouse", "Ombor 2", "Ombor mudiri", "TS"),
     (4, "ombor3", "Nazarov Ulugbek", "warehouse", "Ombor 3", "Ombor mudiri", "NU"),
