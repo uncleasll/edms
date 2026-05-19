@@ -29,7 +29,7 @@ The backend creates tables and seeds demo data on first startup.
 5. Environment variables:
    - `DATABASE_URL`: your Supabase PostgreSQL URL
    - `JWT_SECRET`: long random string
-   - `CORS_ORIGINS`: `["https://YOUR-VERCEL-DOMAIN.vercel.app","http://localhost:5173"]`
+   - `CORS_ORIGINS`: `["https://edms-uz.vercel.app","http://localhost:5173"]`
    - `STORAGE_DIR`: `storage`
 
 Render free backend sleeps when unused. First request after sleep can be slow.
